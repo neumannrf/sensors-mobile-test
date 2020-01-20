@@ -1,0 +1,9 @@
+---
+applications:
+ - name: sensors-mobile-test
+   disk_quota: 256M
+   memory: 256M
+   buildpacks:
+       - sdk-for-nodejs
+   routes:
+       - route: sensors-mobile-test.mybluemix.net
